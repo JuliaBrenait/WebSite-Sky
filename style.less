@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Neuton&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    body{
+        background-color: rgb(31, 31, 31);
+        font-family: 'Neuton', serif;
+
+        header{
+            background-color: rgb(56, 56, 56);
+            opacity: 0.7;
+            #header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                a{
+                    text-decoration: none;
+                    font-size: 18px;
+                    padding: 0px 20px;
+                    color: rgb(164, 226, 172);
+                    
+    
+                    @media (max-width:414px){
+                        font-size: 12px;
+                    }
+                }
+                h1{
+                    color: rgb(22, 177, 68);
+                    font-family: 'Cinzel', serif;
+                    
+                    @media (max-width:414px){
+                        font-size: 16px;
+                    }
+    
+                }
+            }
+            
+        }
+    
+        #pag1{
+            display: flex;
+             align-items: center;
+             justify-content: center;
+             color: #ffffff;
+             padding-top: 80px;
+             
+             @media (max-width:1064px){
+             flex-direction: column;       
+            }
+
+            #img1{
+                img{
+                    width: 750px;
+                    border-radius: 10px;
+                    @media (max-width:1064px){
+                        width: 300px;
+                    }
+                }
+            }
+
+            #content1{
+                width: 500px;
+                padding-left: 20px;
+                @media (max-width:1064px){
+                 width: 200px;       
+                }
+               
+                h1{
+                    color: rgb(46, 155, 70);
+                }
+                p{
+                    font-size: 25px;
+                    color: rgb(164, 226, 172);
+                }
+            }
+        }
+
+        #pag2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 50px;
+            color: rgb(46, 155, 70);
+
+            @media (max-width:1064px){
+               flex-direction: column;         
+            }
+
+            .card{
+             
+               text-align: center;
+                padding: 30px;
+                img{
+                    border-radius: 10px;
+                    width: 330px ;
+                    height: 400px;
+
+                    @media (max-width:1064px){
+                     width:300px ;   
+                    }
+                }
+            }
+        }
+        
+        #pag3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 100px;
+
+            @media (max-width:1064px){
+             flex-direction: column;           
+            }
+            
+            #content3{
+                color: rgb(164, 226, 172);
+                font-size: 25px;
+                width: 600px;
+                padding-right: 20px;
+
+                @media (max-width:1064px){
+                 width: 300px;  
+                 font-size: 18px;  
+                 padding-bottom: 20px;  
+                 padding-right: 0px; 
+                }
+            }
+
+            #img5{
+                
+                img{
+                    border-radius: 10px;
+
+                    @media (max-width:1064px){
+                     width: 300px;   
+                    }
+                }
+            }
+        }
+
+        #pag4{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 100px;
+            text-align: center;
+            padding-bottom: 100px;
+
+            p{
+                color: rgb(189, 204, 189);
+                padding-bottom: 20px;
+                font-size: 20px;
+                padding-left: 5px;
+            }
+            form{
+                padding-bottom: 20px;
+                #input{
+                    width: 300px;
+                    padding: 10px;
+                    font-size: 16px;
+                    border-radius: 20px;
+                    border: rgb(53, 53, 53);
+                    text-align: center;
+                    
+                    @media (max-width:1064px){
+                     width: 180px;   
+                    }
+                }
+
+                button{
+                    padding: 10px;
+                    font-size: 16px;
+                    margin-left: 10px;
+                    border-radius: 20px;
+                    border: rgb(53, 53, 53);
+                }
+            }
+        }
+
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                padding: 20px;
+            }
+        }
+    }
+}
